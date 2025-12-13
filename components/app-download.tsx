@@ -63,17 +63,17 @@ export function AppDownload() {
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 blur-3xl"></div>
               <div className="relative flex gap-4 items-center justify-center">
                 <img
-                  src="/images/image.png"
+                  src="/images/screenshot-133229.png"
                   alt="App Screenshot 1"
                   className="w-1/3 rounded-2xl shadow-2xl border-4 border-background"
                 />
                 <img
-                  src="/images/image.png"
+                  src="/images/screenshot-133253.png"
                   alt="App Screenshot 2"
                   className="w-1/3 rounded-2xl shadow-2xl border-4 border-background -translate-y-4"
                 />
                 <img
-                  src="/images/image.png"
+                  src="/images/screenshot-133229.png"
                   alt="App Screenshot 3"
                   className="w-1/3 rounded-2xl shadow-2xl border-4 border-background"
                 />

@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/images/screenshot-2025-12-13-133925-removebg-preview.png"
+              src="/images/logo-removebg.png"
               alt="FlyBox Logo"
               width={40}
               height={40}
