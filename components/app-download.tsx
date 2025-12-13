@@ -33,12 +33,14 @@ export function AppDownload() {
                 </div>
               </Button>
 
-              <Button size="lg" variant="outline" className="group border-2 bg-transparent">
-                <Play className="mr-2 h-5 w-5 fill-current" />
-                <div className="text-left">
-                  <div className="text-xs">Download di</div>
-                  <div className="text-sm font-semibold">Google Play</div>
-                </div>
+              <Button size="lg" variant="outline" className="group border-2 bg-transparent" asChild>
+                <a href="https://www.figma.com/proto/nJ2njf0q7yp0QjCBcMueXQ/PPD-TK?node-id=15-389&p=f&t=lEqCTnUDDPEEmnVc-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A4955&starting-point-node-id=15%3A389&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">
+                  <Play className="mr-2 h-5 w-5 fill-current" />
+                  <div className="text-left">
+                    <div className="text-xs">Download di</div>
+                    <div className="text-sm font-semibold">Google Play</div>
+                  </div>
+                </a>
               </Button>
             </div>
 
