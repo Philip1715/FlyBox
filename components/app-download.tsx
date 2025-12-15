@@ -3,7 +3,7 @@ import { Apple, Play } from "lucide-react"
 
 export function AppDownload() {
   return (
-    <section className="py-20 sm:py-24 bg-gradient-to-br from-primary/10 via-background to-secondary/10">
+    <section className="py-20 sm:py-24 bg-gradient-to-br from-orange-50/40 via-background to-primary/10">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div>
@@ -62,7 +62,7 @@ export function AppDownload() {
 
           <div className="relative">
             <div className="relative mx-auto w-full max-w-md">
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 blur-3xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-orange-400/20 to-primary/20 blur-3xl"></div>
               <div className="relative flex gap-4 items-center justify-center">
                 <img
                   src="/images/screenshot-133229.png"

@@ -5,6 +5,7 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden py-20 sm:py-32">
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-orange-50/30 via-transparent to-orange-100/20"></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
@@ -39,15 +40,15 @@ export function Hero() {
 
           <div className="mt-16 grid grid-cols-2 gap-8 sm:grid-cols-3">
             <div className="text-center">
-              <div className="mb-2 text-3xl font-bold text-primary">10K+</div>
+              <div className="mb-2 text-3xl font-bold bg-gradient-to-r from-orange-500 to-primary bg-clip-text text-transparent">10K+</div>
               <div className="text-sm text-muted-foreground">Pengguna Aktif</div>
             </div>
             <div className="text-center">
-              <div className="mb-2 text-3xl font-bold text-primary">15+</div>
+              <div className="mb-2 text-3xl font-bold bg-gradient-to-r from-orange-500 to-primary bg-clip-text text-transparent">15+</div>
               <div className="text-sm text-muted-foreground">Negara ASEAN & Asia</div>
             </div>
             <div className="col-span-2 text-center sm:col-span-1">
-              <div className="mb-2 text-3xl font-bold text-primary">70%</div>
+              <div className="mb-2 text-3xl font-bold bg-gradient-to-r from-orange-500 to-primary bg-clip-text text-transparent">70%</div>
               <div className="text-sm text-muted-foreground">Hemat Biaya</div>
             </div>
           </div>
