@@ -7,16 +7,16 @@ export function AppDownload() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border bg-background px-4 py-2 text-sm">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50/50 px-4 py-2 text-sm">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-500 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
               </span>
-              <span className="font-medium">Tersedia di iOS & Android</span>
+              <span className="font-medium text-orange-700">Tersedia di iOS & Android</span>
             </div>
 
             <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight sm:text-4xl">
-              Download Aplikasi FlyBox
+              <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Download</span> Aplikasi FlyBox
             </h2>
 
             <p className="mb-8 text-pretty text-lg text-muted-foreground">

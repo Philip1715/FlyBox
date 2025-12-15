@@ -10,7 +10,7 @@ export function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            Jasa Titip Kirim ASEAN & East Asia <span className="text-primary">Berbasis Komunitas</span>
+            Jasa Titip Kirim ASEAN & East Asia <span className="bg-gradient-to-r from-orange-500 via-orange-400 to-primary bg-clip-text text-transparent">Berbasis Komunitas</span>
           </h1>
 
           <p className="mb-10 text-pretty text-lg text-muted-foreground sm:text-xl">

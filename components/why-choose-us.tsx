@@ -38,7 +38,7 @@ const features = [
 
 export function WhyChooseUs() {
   return (
-    <section id="features" className="py-20 sm:py-24">
+    <section id="features" className="py-20 sm:py-24 bg-gradient-to-b from-orange-50/30 via-background to-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight sm:text-4xl">Kenapa Pilih FlyBox?</h2>
@@ -49,10 +49,10 @@ export function WhyChooseUs() {
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (
-            <Card key={index} className="group hover:shadow-lg transition-all hover:border-primary/50">
+            <Card key={index} className="group hover:shadow-lg transition-all hover:border-orange-300">
               <CardContent className="p-6">
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                  <feature.icon className="h-6 w-6" />
+                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-orange-100 to-orange-50 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 transition-colors">
+                  <feature.icon className="h-6 w-6 text-orange-600 group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="mb-2 text-lg font-bold">{feature.title}</h3>
                 <p className="text-sm text-muted-foreground">{feature.description}</p>

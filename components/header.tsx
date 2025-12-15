@@ -36,7 +36,7 @@ export function Header() {
             <Button variant="ghost" size="sm" className="hidden sm:inline-flex">
               Masuk
             </Button>
-            <Button size="sm">Daftar</Button>
+            <Button size="sm" className="bg-orange-500 hover:bg-orange-600 text-white">Daftar</Button>
           </div>
         </div>
       </div>
